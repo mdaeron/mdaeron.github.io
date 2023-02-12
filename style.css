@@ -197,7 +197,12 @@ article h1 {
 	font-size:200%;
 }
 
-.biblio ul {
+article h2 {
+	margin-top: 2ex;
+	margin-bottom: 1.5ex;
+}
+
+.biblio ul, .links ul {
 	font-size:100%;
 	margin-left: 25px;
 	margin-right: 25px;
@@ -210,6 +215,13 @@ article h1 {
 /* 	padding-left: 2em; */
 	line-height: 140%;
 	margin-bottom: 2ex;
+}
+
+.links li {
+	list-style: square;
+/* 	text-indent: -25px; */
+/* 	line-height: 140%; */
+	margin-bottom: 1ex;
 }
 
 sup {
